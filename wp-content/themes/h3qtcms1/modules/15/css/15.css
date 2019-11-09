@@ -1,0 +1,91 @@
+.type-15 {
+  margin-top: 20px;
+}
+.type-15 .open-filter {
+  position: relative;
+  text-decoration: none;
+  color: #0a0a0a;
+}
+.type-15 .open-filter:hover {
+  color: #23bdc2;
+}
+.type-15 .filter-button {
+  margin-top: 30px;
+}
+.type-15 .filter-button .drop-collape {
+  background: #f7f5f5;
+}
+.type-15 .filter-button .drop-collape .filter-inner .login {
+  margin: 50px;
+}
+.type-15 .filter-button .drop-collape .filter-inner .login .form-group {
+  margin-top: 30px;
+}
+.type-15 .filter-button .drop-collape .filter-inner .login .form-group p {
+  color: #000000;
+  font-size: 1.5em;
+}
+.type-15 .filter-button .drop-collape .filter-inner .login .form-group p span {
+  color: red;
+}
+.type-15 .filter-button .drop-collape .filter-inner .login .form-group .checkbox label {
+  color: #000000;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+.type-15 .filter-button .drop-collape .filter-inner .login .form-group .btn {
+  width: 25%;
+  height: 50px;
+  font-size: 1.5em;
+  background: #37a8a8;
+  color: #ffffff;
+}
+.type-15 .filter-button .drop-collape .filter-inner .login .lost {
+  padding-top: 15px;
+}
+.type-15 .filter-button .drop-collape .filter-inner .login .lost a {
+  color: #000000;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+.type-15 .filter-button .drop-collape .filter-inner .login .lost a:hover {
+  color: blue;
+}
+.type-15 .filter-button .drop-collape .filter-inner .right {
+  border-left: 1px solid #d1cece;
+}
+.type-15 .filter-button .drop-collape .filter-inner .right .register {
+  margin: 50px;
+}
+.type-15 .filter-button .drop-collape .filter-inner .right .register .form-group {
+  margin-top: 30px;
+}
+.type-15 .filter-button .drop-collape .filter-inner .right .register .form-group p {
+  color: #000000;
+  font-size: 1.5em;
+}
+.type-15 .filter-button .drop-collape .filter-inner .right .register .form-group p span {
+  color: red;
+}
+.type-15 .filter-button .drop-collape .filter-inner .right .register .form-group .checkbox label {
+  color: #000000;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+.type-15 .filter-button .drop-collape .filter-inner .right .register .form-group .btn {
+  width: 35%;
+  height: 50px;
+  font-size: 1.5em;
+  background: #37a8a8;
+  color: #ffffff;
+}
+.type-15 .filter-button .drop-collape .filter-inner .right .register .per {
+  padding-top: 25px;
+  font-size: 1.5em;
+  color: #948994;
+}
+@media screen and (max-width: 500px) {
+  .shop-loop .open-filter {
+    float: right;
+  }
+}

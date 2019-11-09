@@ -1,0 +1,121 @@
+.type-15 {
+    margin-top: 20px;
+    @a: 1.5em;
+    @b: red;
+    @c: #000000;
+
+    .open-filter {
+        position: relative;
+        text-decoration: none;
+        color: #0a0a0a;
+    }
+
+    .open-filter:hover {
+        color: #23bdc2;
+    }
+
+    .filter-button {
+        margin-top: 30px;
+
+        .drop-collape {
+            background: #f7f5f5;
+
+            .filter-inner {
+                .login {
+                    margin: 50px;
+
+                    .form-group {
+                        margin-top: 30px;
+
+                        p {
+                            color: @c;
+                            font-size: @a;
+
+                            span {
+                                color: @b
+                            }
+                        }
+
+                        .checkbox {
+                            label {
+                                color: @c;
+                                font-size: @a;
+                                margin-top: 10px;
+                            }
+                        }
+
+                        .btn {
+                            width: 25%;
+                            height: 50px;
+                            font-size: @a;
+                            background: rgb(55, 168, 168);
+                            color: #ffffff;
+                        }
+                    }
+                    .lost{
+                        padding-top: 15px;
+                        a {
+                            color: @c;
+                            font-size: @a;
+                            text-decoration: none;
+                        }
+    
+                        a:hover {
+                            color: blue;
+                        }
+                    }
+                
+                }
+
+
+                .right {
+                    border-left: 1px solid #d1cece;
+                    .register{
+                        margin: 50px;
+                        .form-group {
+                            margin-top: 30px;
+    
+                            p {
+                                color: @c;
+                                font-size: @a;
+    
+                                span {
+                                    color: @b
+                                }
+                            }
+    
+                            .checkbox {
+                                label {
+                                    color: @c;
+                                    font-size: @a;
+                                    margin-top: 10px;
+                                }
+                            }
+    
+                            .btn {
+                                width: 35%;
+                                height: 50px;
+                                font-size: @a;
+                                background: rgb(55, 168, 168);
+                                color: #ffffff;
+                            }
+                        }
+                        .per{
+                            padding-top: 25px;
+                            font-size: @a;
+                            color: #948994;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .shop-loop {
+        .open-filter {
+            float: right;
+        }
+    }
+}

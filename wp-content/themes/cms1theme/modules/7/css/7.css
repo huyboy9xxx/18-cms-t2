@@ -1,0 +1,46 @@
+.type-7 {
+  margin-top: 10px;
+}
+.type-7 .section-title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.type-7 .section-title .fa-instagram {
+  width: 30px;
+  font-size: 20px;
+  opacity: .6;
+}
+.type-7 .section-title b {
+  display: block;
+  flex: 1;
+  height: 2px;
+  opacity: .1;
+  background-color: #706d6d;
+}
+.type-7 .section-title span {
+  border: 2px solid rgba(0,0,0,0.1);
+  padding: 10px 11px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.type-7 a {
+  position: absolute;
+}
+.type-7 a .caption {
+  position: absolute;
+  height: 0;
+  transition: all .4s;
+  overflow-y: auto;
+  bottom: 0;
+  padding: 0 10px;
+  font-size: 14px;
+  color: #FFF;
+  width: 100%;
+  background-color: rgba(0,0,0,0.3);
+}
+.type-7 a:hover .caption {
+  height: 100%;
+}

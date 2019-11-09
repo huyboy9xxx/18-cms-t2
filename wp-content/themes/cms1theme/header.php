@@ -8,7 +8,32 @@
 </head>
 <body <?php body_class(); ?>>
 	<header>
-    <nav class="navbar navbar-default" role="navigation">
+		<?php get_template_part( PATH_MODULE.'1/1', 'content' ); ?>
+	<?php
+	// $modules;
+	// $moduleCss;
+	// if ($handle = opendir(THEME_URL.'/modules')) {
+	//     while (false !== ($entry = readdir($handle))) {
+	//         if ($entry != "." && $entry != "..") {
+	//         	$modules[] = $entry;
+	//         }
+	//     }
+	//     closedir($handle);
+	// }
+	// for ($i=0; $i < count($modules); $i++) {
+	// 	if ($listCss = opendir(THEME_URL.'/modules/'.$modules[$i].'/css')) {
+	// 	    while (false !== ($css = readdir($listCss))) {
+	// 	        if ($css != "." && $css != "..") {
+	// 	        	$moduleCss[] = $css;
+	// 	        }
+	// 	    }
+	// 	    closedir($listCss);
+	// 	}
+	// }
+
+	// var_dump($moduleCss);
+	?>
+    <!-- <nav class="navbar navbar-default" role="navigation">
       <div class="navigation">
         <div class="container">
           <div class="navbar-header">
@@ -18,16 +43,16 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<?php cms1hvh_header(); ?>
+			<?php //cms1hvh_header(); ?>
 			<div class="navbar-collapse collapse">
 				  <div class="search-header">
-				  	<?php get_search_form(); ?>
+				  	<?php //get_search_form(); ?>
 				  </div>
-            <?php cms1hvh_menu('primary-menu'); ?>
+            <?php //cms1hvh_menu('primary-menu'); ?>
           </div>
         </div>
       </div>
-    </nav>
+    </nav> -->
   </header>
 
 

@@ -1,0 +1,76 @@
+.type-8 {
+  margin-top: 30px;
+}
+.type-8 a {
+  text-decoration: none;
+}
+.type-8 h4 {
+  color: #a7a5a5;
+}
+.type-8 .title .line-botom {
+  height: 3px;
+  display: block;
+  background-color: rgba(0,0,0,0.1);
+  max-width: 40px;
+}
+.type-8 .product {
+  padding-top: 15px;
+  margin-left: -40px;
+}
+.type-8 .product li {
+  list-style: none;
+  padding: 10px 0 5px 75px;
+  min-height: 80px;
+  position: relative;
+  overflow: hidden;
+  vertical-align: top;
+  line-height: 1.33;
+  border-bottom: 1px solid #ececec;
+}
+.type-8 .product li img {
+  top: 10px;
+  position: absolute;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 5px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.type-8 .product li .price {
+  font-size: 15px;
+  color: #111;
+  font-weight: bold;
+}
+.type-8 .product li a {
+  display: block;
+  margin-bottom: 5px;
+  padding: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.3;
+}
+.type-8 .product li a .product-title {
+  color: #000;
+}
+.type-8 .product .rating-stars span p {
+  display: inline-block;
+}
+.type-8 .product .rating-stars .star {
+  font-size: 1em;
+  color: #ccc;
+}
+.type-8 .product .rating-stars .star:hover i.fa {
+  color: #FFCC36;
+}
+.type-8 .product .rating-stars .star.selected i.fa {
+  color: #FF912C;
+}
+.type-8 .product .rating-stars .fa-fw {
+  text-align: left !important;
+  width: 1.1em !important;
+}
+.type-8 .container {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}

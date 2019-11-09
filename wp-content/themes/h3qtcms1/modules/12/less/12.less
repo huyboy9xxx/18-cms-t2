@@ -1,0 +1,162 @@
+@color-gray: #777777;
+@color-white: #ffffff;
+@background-gray: rgb(177, 168, 168);
+.type-12 {
+    margin-top: 20px;
+    a{
+        text-decoration: none;
+        color: #000000;
+    }
+    .decsiton-left {
+        border-right: 1px solid @background-gray;
+
+        .title-left {
+            text-align: center;
+
+            h5 {
+                font-size: 12px;
+            }
+
+            .border-small {
+                height: 3px;
+                background-color: @background-gray;
+                width: 100%;
+                max-width: 30px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        .image-view {
+            .post-date {
+                position: absolute;
+                top: 150px;
+
+                span {
+                    display: block;
+                    border: 1.5px solid #6096cc;
+                    width: 40px;
+                    height: 40px;
+                    text-align: center;
+                    color: #6096cc;
+                }
+            }
+        }
+        .images-text{
+            .col-md-3{
+                margin-bottom: 25px;
+            }
+        }
+        .icon-share{  
+            text-align: center;
+            margin-left: 62px;
+            ul li{
+                list-style: none;
+                display: inline-block;
+                width: 30px;
+                height: 30px;
+                padding-top: 5px;
+                margin-left: -45px;
+                margin-right: 55px;
+            }
+            .social-facebook {
+                border: solid 1.5px @color-gray;
+                border-radius: 50%;
+                color: @color-gray;
+                &:hover{
+                    background-color: #365493;
+                    border-color: #365493;
+                    color: @color-white;
+                }
+            }
+            .social-twitter{
+                border: solid 1.5px @color-gray;
+                border-radius: 50%;
+                color: @color-gray;
+                &:hover{
+                    background-color: #3CF;
+                    border-color: #3CF;
+                    color: @color-white; 
+                }
+            } 
+            .social-email{
+                border: solid 1.5px @color-gray;
+                border-radius: 50%;
+                color: @color-gray;
+                &:hover{
+                    background-color: #F89A1E;
+                    border-color: #F89A1E;
+                    color: @color-white;   
+                }
+            }
+            .social-in{
+                border: solid 1.5px @color-gray;
+                border-radius: 50%;
+                color: @color-gray;
+                &:hover{
+                    background-color: #0274b3;
+                    border-color: #0274b3;
+                    color: @color-white; 
+                }
+            }
+        }
+    }
+
+    .decsition {
+        padding-top: 10px;
+        color: @color-gray;
+    }
+
+    .title-right {
+        h4 {
+            color: #696767;
+            font: bold;
+        }
+        .bottom-small{
+            border-bottom: 1px solid @background-gray;
+        }
+
+        .border-small {
+            height: 3px;
+            background-color: @background-gray;
+            width: 100%;
+            max-width: 30px;
+            margin-right: auto;
+        }
+
+        .test-post {
+            margin-bottom: -40px;
+            padding-top: 20px;
+            ul {
+                position: relative;
+                top: -40px;
+                margin-left: 10px;
+                li {
+                    list-style: none;
+                    .comment{
+                        color: @color-gray;
+                    }
+                    
+                }
+                
+            }
+            .post-date {
+                span {
+                    display: block;
+                    border: 1.5px solid #6096cc;
+                    width: 40px;
+                    height: 40px;
+                    text-align: center;
+                    color: #6096cc;
+                }
+            }
+        }
+
+    }
+
+}
+@media screen and (max-width: 990px){
+    .decsiton-left{
+        border-right: none!important;
+    }
+}

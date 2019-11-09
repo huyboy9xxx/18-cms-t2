@@ -1,0 +1,93 @@
+.type-8 {
+    margin-top: 30px;
+
+    a {
+        text-decoration: none;
+    }
+    h4{
+        color: #a7a5a5;
+    }
+    .title {
+        .line-botom {
+            height: 3px;
+            display: block;
+            background-color: rgba(0, 0, 0, 0.1);
+            max-width: 40px;
+        }
+    }
+
+    .product {
+        padding-top: 15px;
+        margin-left: -40px;
+
+        li {
+            list-style: none;
+            padding: 10px 0 5px 75px;
+            min-height: 80px;
+            position: relative;
+            overflow: hidden;
+            vertical-align: top;
+            line-height: 1.33;
+            border-bottom: 1px solid #ececec;
+
+            img {
+                top: 10px;
+                position: absolute;
+                left: 0;
+                width: 60px;
+                height: 60px;
+                margin-bottom: 5px;
+                object-fit: cover;
+                object-position: 50% 50%;
+            }
+
+            .price {
+                font-size: 15px;
+                color: #111;
+                font-weight: bold;
+            }
+
+            a {
+                display: block;
+                margin-bottom: 5px;
+                padding: 0;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                line-height: 1.3;
+
+                .product-title {
+                    color: #000;
+                }
+            }
+        }
+
+        .rating-stars {
+            span p{
+                display: inline-block;
+                
+            }
+            .star {
+                font-size: 1em;
+                color: #ccc;
+                &:hover {
+                    i.fa {
+                        color: #FFCC36;
+                    }
+                }
+                &.selected {
+                    i.fa {
+                        color: #FF912C;
+                    }
+                }
+            }
+            .fa-fw{
+                text-align: left!important;
+                width: 1.1em!important;
+            }
+        }
+    }
+    .container{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+}

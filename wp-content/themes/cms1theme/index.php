@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div class="content">
-	<div class="main-content">
+	<!-- <div class="main-content"> -->
 		
 		<?php get_template_part( 'content', get_post_format() ); ?>
 
@@ -8,9 +8,9 @@
 
 
 
-	</div>
+<!-- 	</div>
 	<div class="sidebar">
-		<?php get_sidebar(); ?>
-	</div>
+		<?php //get_sidebar(); ?>
+	</div> -->
 </div>
 <?php get_footer(); ?>

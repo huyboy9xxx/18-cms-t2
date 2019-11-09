@@ -1,0 +1,59 @@
+.type-5 {
+  margin-top: 80px;
+}
+.type-5 .img {
+  background-image: url(../images/1.png);
+  background-position: unset;
+  background-size: cover;
+}
+.type-5 .content {
+  margin-top: 26px;
+}
+.type-5 h1 {
+  text-transform: uppercase;
+  color: #b3acac;
+  font-weight: bold;
+  line-height: 1;
+  font-family: Bodoni MT Black;
+}
+.type-5 p {
+  color: #b3acac;
+  font-size: 1.5em;
+  margin-top: 40px;
+  font-style: italic;
+}
+.type-5 .form {
+  margin-bottom: 50px;
+}
+.type-5 .form .form-control {
+  border-radius: 20px;
+  width: 280px;
+  display: inline-block;
+  color: #b3acac;
+  margin-left: 0;
+  margin-top: 30px;
+  opacity: 0.4;
+}
+.type-5 .form .btn {
+  width: 100px;
+  margin-left: 30px;
+  border-radius: 20px;
+  margin-top: -4px;
+  display: inline-block;
+}
+@media screen and (max-width: 480px) {
+  .type-5 h1 {
+    font-size: 2em !important;
+  }
+  .type-5 .btn {
+    margin-top: 10px !important;
+  }
+}
+@media screen and (max-width: 360px) {
+  .type-5 h1 {
+    font-size: 2em !important;
+  }
+  .type-5 .btn {
+    margin-top: 10px !important;
+  }
+}

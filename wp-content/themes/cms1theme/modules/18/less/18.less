@@ -1,0 +1,236 @@
+.type-18{
+	font-family: "Lato", sans-serif;
+	.container{
+		padding-left: unset;
+		padding-right: unset;
+	}
+	.row{
+		margin-right: unset;
+		margin-left: unset;
+	}
+	a{
+		text-decoration: none;
+	}
+	.text-right{
+		text-align: right;
+	}
+	.cart-main{
+		padding: 5%;
+		.cart-body{
+			.cart-title{
+				letter-spacing: .05em;
+				text-transform: uppercase;
+				border-bottom: 2px solid #ececec;
+				font-weight: 550;
+				color: #777;
+				.title-right{
+					float: right;
+					span{
+						margin-left: 8px;
+					}
+				}
+					
+
+			}
+			.back{
+				width: 200px;
+				border: 2px solid #446084;
+				background: #fff;
+				text-transform: uppercase;
+				font-weight: 550;
+				font-size: 13px;
+				color:#446084;
+				border-radius: 0;
+				&:hover{
+					background: #446084;
+					color: #fff;
+				}
+			}
+			.update{
+				width: 130px;
+				border-radius: 0;
+				background: #8fa0b5;
+				color: #fff;
+				font-size: 13px;
+				font-weight: 550;
+				text-transform: uppercase;
+				&:hover{
+					background: #8FA079;
+				}
+			}
+		}
+	}
+	.cart-item{
+		width: 100%;
+		padding-left: 0;
+		height: 120px;
+		display: flex;
+  		align-items: center;
+		border-bottom: 1px solid #ccc;
+		li{
+			padding-top: 15px;
+			padding-bottom: 15px;
+			list-style: none;
+			float: left;
+			margin-right: 14px;
+			a{
+				color: #000;
+				&:hover{
+					color: #777;
+				}
+			}
+			
+			.remove{
+				display: block;
+				width: 24px;
+				height: 24px;
+				font-size: 15px !important;
+				line-height: 19px !important;
+				border-radius: 100%;
+				color: #ccc;
+				font-weight: bold;
+				text-align: center;
+				border: 2px solid currentColor;
+				&:hover{
+					color: #000;
+				}
+			}
+			img{
+				width: 75px;
+			}
+		}
+		.name{
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			overflow: hidden;
+		}
+		.right-item{
+			margin-right: unset;
+			display: flex; align-items: center;
+			margin-left: auto;
+			.number-spinner{
+				float: right; width: 78px;
+				margin-left: 14px;
+			}
+			.total{
+				margin-left: 14px;
+			}
+		}
+		
+	}
+	.steps-price{
+		color: #777;
+		.height-item{
+			padding-top: 25px;
+			padding-bottom: 5px;
+			.subtotal{
+				font-weight: 500;
+				text-transform: none !important;
+			}
+			.title-right{
+				color: #000 !important;
+			}
+		}
+		.shipping{
+			height: 60px; display: flex;
+			align-items: center;
+			border-bottom: 1px solid #ccc;
+			span{
+				font-weight: 500;
+			}
+			
+		}
+		.right-shipping{
+			margin-left: auto;
+			span{
+				display: block;
+			}
+			a{
+				float: right;
+				color: #777;
+				&:hover{
+					color: #000;
+				}
+			}
+		}
+		.total{
+			font-weight: 500 !important;
+			line-height: 2;
+			text-transform: none !important;
+		}
+		.coupon{
+			padding-bottom: 10px;
+			button{
+				text-transform: uppercase;
+				border-radius: 0;
+				background: #D26E4B;
+				margin-bottom: 30px;
+				margin-top: 30px;
+				width: 100%;
+				color: #fff;
+				font-weight: 550;
+				transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+				&:hover{
+					background-color: #a2340e;
+				}
+			}
+			span{
+				text-transform: none !important;
+			}
+		}
+		.coupon-code{
+			width: 100%;
+			border-radius: 0;
+			margin-top: 15px;
+		}
+		.submit{
+			width: 100%;
+			margin-top: 15px;
+			border-radius: 0;
+			background: #f9f9f9;
+			border: 1px solid #ddd;
+			text-transform: uppercase;
+			transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+			&:hover{
+				background: #ccc;
+			}
+		}
+	}
+	.line-h{
+		border-left: 1px solid #ccc;
+	}
+	.number-spinner{
+
+		.handle-counter .counter-minus,  .handle-counter .counter-plus,  .handle-counter input {
+			float: left;
+			text-align: center;
+		}
+		.handle-counter input {
+			width: 40px;
+			height: 35px;
+		}
+		.counter-minus, .counter-plus{
+			height: 35px;
+			background: #fff;
+			border: 1px solid #ccc;
+			padding: 5px;
+			border-radius: unset;
+			&:hover{
+				background: #ccc;
+			}
+		}
+		input[type=number]::-webkit-inner-spin-button, 
+		input[type=number]::-webkit-outer-spin-button { 
+		-webkit-appearance: none; 
+		margin: 0;
+		}
+	}
+	@media only screen and (max-width: 991px) {
+		.line-h{
+			border-left: none;
+		}
+		.set-width{
+			width: 100% !important;
+		}
+	}
+}

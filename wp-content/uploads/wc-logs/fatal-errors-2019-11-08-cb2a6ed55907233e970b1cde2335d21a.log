@@ -1,0 +1,170 @@
+2019-11-08T05:02:54+00:00 CRITICAL syntax error, unexpected ')' in C:\wamp64\www\wordpress\wp-content\themes\storefront\index.php on line 27
+
+2019-11-08T05:02:59+00:00 CRITICAL Uncaught Error: Call to undefined function get_content() in C:\wamp64\www\wordpress\wp-content\themes\storefront\index.php:27
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template-loader.php(78): include()
+#1 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#3 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\storefront\index.php on line 27
+
+2019-11-08T09:06:38+00:00 CRITICAL Uncaught Error: Call to undefined function The_Loop() in C:\wamp64\www\wordpress\wp-content\themes\storefront\loop.php:23
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(724): require()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(671): load_template('C:\\wamp64\\www\\w...', false)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\wamp64\www\wordpress\wp-content\themes\storefront\search.php(30): get_template_part('loop')
+#4 C:\wamp64\www\wordpress\wp-includes\template-loader.php(78): include('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\storefront\loop.php on line 23
+
+2019-11-08T13:09:50+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_cart() in C:\wamp64\www\wordpress\wp-content\themes\storefront\modules\1\1-content.php:76
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(724): require()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(671): load_template('C:\\wamp64\\www\\w...', false)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\wamp64\www\wordpress\wp-content\themes\storefront\header.php(46): get_template_part('modules/1/1', 'content')
+#4 C:\wamp64\www\wordpress\wp-includes\template.php(722): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-includes\template.php(671): load_template('C:\\wamp64\\www\\w...', true)
+#6 C:\wamp64\www\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\wamp64\www\wordpress\wp-content\themes\storefront\page.php(13): get_header()
+#8 C:\wamp64\www\wordpress\wp-includes\template-loader.php(78): include('C:\\wamp64\\www\\w... in C:\wamp64\www\wordpress\wp-content\themes\storefront\modules\1\1-content.php on line 76
+
+2019-11-08T13:09:51+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_cart() in C:\wamp64\www\wordpress\wp-content\themes\storefront\modules\1\1-content.php:76
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(724): require()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(671): load_template('C:\\wamp64\\www\\w...', false)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\wamp64\www\wordpress\wp-content\themes\storefront\header.php(46): get_template_part('modules/1/1', 'content')
+#4 C:\wamp64\www\wordpress\wp-includes\template.php(722): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-includes\template.php(671): load_template('C:\\wamp64\\www\\w...', true)
+#6 C:\wamp64\www\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\wamp64\www\wordpress\wp-content\themes\storefront\404.php(8): get_header()
+#8 C:\wamp64\www\wordpress\wp-includes\template-loader.php(78): include('C:\\wamp64\\www\\w...') in C:\wamp64\www\wordpress\wp-content\themes\storefront\modules\1\1-content.php on line 76
+
+2019-11-08T13:09:51+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_cart() in C:\wamp64\www\wordpress\wp-content\themes\storefront\modules\1\1-content.php:76
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(724): require()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(671): load_template('C:\\wamp64\\www\\w...', false)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\wamp64\www\wordpress\wp-content\themes\storefront\header.php(46): get_template_part('modules/1/1', 'content')
+#4 C:\wamp64\www\wordpress\wp-includes\template.php(722): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-includes\template.php(671): load_template('C:\\wamp64\\www\\w...', true)
+#6 C:\wamp64\www\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\wamp64\www\wordpress\wp-content\themes\storefront\404.php(8): get_header()
+#8 C:\wamp64\www\wordpress\wp-includes\template-loader.php(78): include('C:\\wamp64\\www\\w...') in C:\wamp64\www\wordpress\wp-content\themes\storefront\modules\1\1-content.php on line 76
+
+2019-11-08T13:09:55+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_cart() in C:\wamp64\www\wordpress\wp-content\themes\storefront\modules\1\1-content.php:76
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(724): require()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(671): load_template('C:\\wamp64\\www\\w...', false)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\wamp64\www\wordpress\wp-content\themes\storefront\header.php(46): get_template_part('modules/1/1', 'content')
+#4 C:\wamp64\www\wordpress\wp-includes\template.php(722): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-includes\template.php(671): load_template('C:\\wamp64\\www\\w...', true)
+#6 C:\wamp64\www\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\wamp64\www\wordpress\wp-content\themes\storefront\page.php(13): get_header()
+#8 C:\wamp64\www\wordpress\wp-includes\template-loader.php(78): include('C:\\wamp64\\www\\w... in C:\wamp64\www\wordpress\wp-content\themes\storefront\modules\1\1-content.php on line 76
+
+2019-11-08T13:09:56+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_cart() in C:\wamp64\www\wordpress\wp-content\themes\storefront\modules\1\1-content.php:76
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(724): require()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(671): load_template('C:\\wamp64\\www\\w...', false)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\wamp64\www\wordpress\wp-content\themes\storefront\header.php(46): get_template_part('modules/1/1', 'content')
+#4 C:\wamp64\www\wordpress\wp-includes\template.php(722): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-includes\template.php(671): load_template('C:\\wamp64\\www\\w...', true)
+#6 C:\wamp64\www\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\wamp64\www\wordpress\wp-content\themes\storefront\404.php(8): get_header()
+#8 C:\wamp64\www\wordpress\wp-includes\template-loader.php(78): include('C:\\wamp64\\www\\w...') in C:\wamp64\www\wordpress\wp-content\themes\storefront\modules\1\1-content.php on line 76
+
+2019-11-08T13:09:56+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_cart() in C:\wamp64\www\wordpress\wp-content\themes\storefront\modules\1\1-content.php:76
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(724): require()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(671): load_template('C:\\wamp64\\www\\w...', false)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\wamp64\www\wordpress\wp-content\themes\storefront\header.php(46): get_template_part('modules/1/1', 'content')
+#4 C:\wamp64\www\wordpress\wp-includes\template.php(722): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-includes\template.php(671): load_template('C:\\wamp64\\www\\w...', true)
+#6 C:\wamp64\www\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\wamp64\www\wordpress\wp-content\themes\storefront\404.php(8): get_header()
+#8 C:\wamp64\www\wordpress\wp-includes\template-loader.php(78): include('C:\\wamp64\\www\\w...') in C:\wamp64\www\wordpress\wp-content\themes\storefront\modules\1\1-content.php on line 76
+
+2019-11-08T13:11:37+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_cart_link() in C:\wamp64\www\wordpress\wp-content\themes\storefront\inc\woocommerce\storefront-woocommerce-template-functions.php:122
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\storefront\modules\1\1-content.php(76): storefront_header_cart()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(724): require('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\wp-includes\template.php(671): load_template('C:\\wamp64\\www\\w...', false)
+#3 C:\wamp64\www\wordpress\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#4 C:\wamp64\www\wordpress\wp-content\themes\storefront\header.php(46): get_template_part('modules/1/1', 'content')
+#5 C:\wamp64\www\wordpress\wp-includes\template.php(722): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\wp-includes\template.php(671): load_template('C:\\wamp64\\www\\w...', true)
+#7 C:\wamp64\www\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#8 C:\w in C:\wamp64\www\wordpress\wp-content\themes\storefront\inc\woocommerce\storefront-woocommerce-template-functions.php on line 122
+
+2019-11-08T13:11:38+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_cart_link() in C:\wamp64\www\wordpress\wp-content\themes\storefront\inc\woocommerce\storefront-woocommerce-template-functions.php:122
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\storefront\modules\1\1-content.php(76): storefront_header_cart()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(724): require('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\wp-includes\template.php(671): load_template('C:\\wamp64\\www\\w...', false)
+#3 C:\wamp64\www\wordpress\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#4 C:\wamp64\www\wordpress\wp-content\themes\storefront\header.php(46): get_template_part('modules/1/1', 'content')
+#5 C:\wamp64\www\wordpress\wp-includes\template.php(722): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\wp-includes\template.php(671): load_template('C:\\wamp64\\www\\w...', true)
+#7 C:\wamp64\www\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#8 C:\w in C:\wamp64\www\wordpress\wp-content\themes\storefront\inc\woocommerce\storefront-woocommerce-template-functions.php on line 122
+
+2019-11-08T13:11:39+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_cart_link() in C:\wamp64\www\wordpress\wp-content\themes\storefront\inc\woocommerce\storefront-woocommerce-template-functions.php:122
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\storefront\modules\1\1-content.php(76): storefront_header_cart()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(724): require('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\wp-includes\template.php(671): load_template('C:\\wamp64\\www\\w...', false)
+#3 C:\wamp64\www\wordpress\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#4 C:\wamp64\www\wordpress\wp-content\themes\storefront\header.php(46): get_template_part('modules/1/1', 'content')
+#5 C:\wamp64\www\wordpress\wp-includes\template.php(722): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\wp-includes\template.php(671): load_template('C:\\wamp64\\www\\w...', true)
+#7 C:\wamp64\www\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#8 C:\w in C:\wamp64\www\wordpress\wp-content\themes\storefront\inc\woocommerce\storefront-woocommerce-template-functions.php on line 122
+
+2019-11-08T13:21:56+00:00 CRITICAL syntax error, unexpected end of file in C:\wamp64\www\wordpress\wp-content\themes\storefront\inc\woocommerce\storefront-woocommerce-template-functions.php on line 914
+
+2019-11-08T13:25:54+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_cart() in C:\wamp64\www\wordpress\wp-content\themes\storefront\modules\1\1-content.php:76
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(724): require()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(671): load_template('C:\\wamp64\\www\\w...', false)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\wamp64\www\wordpress\wp-content\themes\storefront\header.php(46): get_template_part('modules/1/1', 'content')
+#4 C:\wamp64\www\wordpress\wp-includes\template.php(722): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-includes\template.php(671): load_template('C:\\wamp64\\www\\w...', true)
+#6 C:\wamp64\www\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\wamp64\www\wordpress\wp-content\themes\storefront\page.php(13): get_header()
+#8 C:\wamp64\www\wordpress\wp-includes\template-loader.php(78): include('C:\\wamp64\\www\\w... in C:\wamp64\www\wordpress\wp-content\themes\storefront\modules\1\1-content.php on line 76
+
+2019-11-08T13:26:12+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_cart() in C:\wamp64\www\wordpress\wp-content\themes\storefront\modules\1\1-content.php:76
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(724): require()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(671): load_template('C:\\wamp64\\www\\w...', false)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\wamp64\www\wordpress\wp-content\themes\storefront\header.php(46): get_template_part('modules/1/1', 'content')
+#4 C:\wamp64\www\wordpress\wp-includes\template.php(722): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-includes\template.php(671): load_template('C:\\wamp64\\www\\w...', true)
+#6 C:\wamp64\www\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\wamp64\www\wordpress\wp-content\themes\storefront\page.php(13): get_header()
+#8 C:\wamp64\www\wordpress\wp-includes\template-loader.php(78): include('C:\\wamp64\\www\\w... in C:\wamp64\www\wordpress\wp-content\themes\storefront\modules\1\1-content.php on line 76
+
+2019-11-08T13:26:33+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_cart() in C:\wamp64\www\wordpress\wp-content\themes\storefront\modules\1\1-content.php:76
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(724): require()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(671): load_template('C:\\wamp64\\www\\w...', false)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\wamp64\www\wordpress\wp-content\themes\storefront\header.php(46): get_template_part('modules/1/1', 'content')
+#4 C:\wamp64\www\wordpress\wp-includes\template.php(722): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-includes\template.php(671): load_template('C:\\wamp64\\www\\w...', true)
+#6 C:\wamp64\www\wordpress\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\wamp64\www\wordpress\wp-content\themes\storefront\page.php(13): get_header()
+#8 C:\wamp64\www\wordpress\wp-includes\template-loader.php(78): include('C:\\wamp64\\www\\w... in C:\wamp64\www\wordpress\wp-content\themes\storefront\modules\1\1-content.php on line 76
+
+2019-11-08T17:12:17+00:00 CRITICAL syntax error, unexpected '}' in C:\wamp64\www\wordpress\wp-content\themes\storefront\modules\18\18-content.php on line 59
+

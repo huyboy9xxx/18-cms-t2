@@ -1,0 +1,107 @@
+.type-11 {
+  margin-top: 50px;
+}
+.type-11 .bg-custom {
+  background-image: url(../images/2.png);
+  background-size: cover;
+}
+.type-11 .bg-custom .content {
+  padding-top: 50px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.type-11 .bg-custom .content h1 {
+  color: #ffffff;
+  font-size: 5em;
+  font-weight: bold;
+  text-align: center;
+}
+.type-11 .bg-custom .content p {
+  text-align: center;
+  padding-top: 10px;
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.type-11 .bg-custom .all-icon {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.type-11 .bg-custom .all-icon .fa {
+  margin-left: 5px;
+}
+.type-11 .bg-custom .all-icon .fa-facebook {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 1.5em;
+  border-radius: 50%;
+  padding: 7px 7px 10px 12px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.type-11 .bg-custom .all-icon .fa-facebook:hover {
+  background: blue;
+}
+.type-11 .bg-custom .all-icon .fa-twitter {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 1.5em;
+  border-radius: 50%;
+  padding: 7px 7px 10px 10px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.type-11 .bg-custom .all-icon .fa-twitter:hover {
+  background: #6083ce;
+}
+.type-11 .bg-custom .all-icon .fa-envelope-o {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 1.5em;
+  border-radius: 50%;
+  padding: 8px 29px 10px 10px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.type-11 .bg-custom .all-icon .fa-envelope-o:hover {
+  background: #151616;
+}
+.type-11 .bg-custom .all-icon .fa-pinterest-p {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 1.5em;
+  border-radius: 50%;
+  padding: 9px 27px 10px 12px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.type-11 .bg-custom .all-icon .fa-pinterest-p:hover {
+  background: #d31616;
+}
+.type-11 .bg-custom .all-icon .fa-instagram {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 1.5em;
+  border-radius: 50%;
+  padding: 7px 7px 10px 10px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.type-11 .bg-custom .all-icon .fa-instagram:hover {
+  background: #6e9ce0;
+}
+@media screen and (max-width: 500px) {
+  .type-11 h1 {
+    font-size: 3em !important;
+    margin-top: 0;
+  }
+  .type-11 p {
+    font-size: 1.5em !important;
+  }
+}

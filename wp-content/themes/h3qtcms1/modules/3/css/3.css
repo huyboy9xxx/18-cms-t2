@@ -1,0 +1,116 @@
+.type-3 .row {
+  margin: 0 -5px;
+}
+.type-3 .row .column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.type-3 .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .type-3 .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.type-3 .mnb:hover {
+  color: red;
+}
+.type-3 .card-product {
+  border: none;
+  position: relative;
+}
+.type-3 .card-product .img-wrap {
+  height: unset;
+}
+.type-3 .card-product .img-wrap .font-awe {
+  list-style: none;
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+.type-3 .card-product .img-wrap .hover-img {
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.type-3 .card-product .img-wrap .mnb {
+  visibility: hidden;
+}
+.type-3 .card-product .img-wrap:hover .hover-img {
+  visibility: unset;
+}
+.type-3 .card-product .img-wrap:hover .mnb {
+  visibility: unset;
+}
+.type-3 .card-product .info-wrap {
+  padding-left: 0;
+  padding-bottom: 0;
+  font-size: 17px;
+}
+.type-3 .card-product .info-wrap .title {
+  font-family: "Times New Roman", Times, serif;
+  color: #000;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.type-3 .card-product .info-wrap .price-wrap {
+  color: #949494;
+  margin-top: 10px;
+}
+.type-3 .card-product .wrap-swap {
+  overflow: hidden;
+  height: 32px;
+  line-height: 32px;
+  transition: all .2s ease-in-out;
+}
+.type-3 .card-product .price-new {
+  margin-bottom: 0;
+  height: 32px;
+  line-height: 32px;
+  text-align: left;
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  transition: all .5s;
+}
+.type-3 .card-product .select-option {
+  height: 32px;
+  line-height: 32px;
+  transition: all .5s;
+  padding-left: 0;
+}
+.type-3 .card-product .select-option a {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  padding-left: 0;
+  color: #000;
+  white-space: nowrap;
+  font-weight: 600;
+  text-transform: none;
+  font-size: 16px;
+}
+.type-3 .card-product:hover .price-new {
+  height: 0;
+}
+.type-3 .card-product:hover .font-awe {
+  visibility: visible;
+  right: 10px;
+}
+.type-3 .card-product:hover .select-option {
+  line-height: 0px;
+}
+.type-3 .i.fa.fa-heart-o:hover {
+  color: red;
+}
+.type-3 .checked {
+  color: orange;
+}

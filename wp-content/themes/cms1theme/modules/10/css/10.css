@@ -1,0 +1,164 @@
+.type-10 {
+  font-family: "Lato", sans-serif;
+}
+.type-10 .modal-dialog {
+  border-radius: unset;
+}
+.type-10 .modal-dialog .modal-content {
+  border-radius: unset;
+  border: unset;
+}
+.type-10 .modal-dialog .modal-content .modal-body {
+  padding: 0;
+  border: .5px solid;
+  border-image-source: linear-gradient(lightgreen,green);
+  border-image-slice: 20;
+}
+.type-10 .modal-dialog .modal-content .modal-body .slide-product {
+  position: relative;
+  height: 650px;
+}
+.type-10 .modal-dialog .modal-content .modal-body .slide-product .swiper-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+}
+.type-10 .modal-dialog .modal-content .modal-body .slide-product .swiper-container .img-responsive {
+  width: 100% !important;
+  height: 100% !important;
+}
+.type-10 .modal-dialog .modal-content .modal-body .slide-product .swiper-button-prev,
+.type-10 .modal-dialog .modal-content .modal-body .slide-product .swiper-button-next {
+  visibility: hidden;
+  transition: all .5s;
+  font-weight: 700;
+  outline: none;
+  color: #777777;
+}
+.type-10 .modal-dialog .modal-content .modal-body .slide-product .swiper-button-prev:hover,
+.type-10 .modal-dialog .modal-content .modal-body .slide-product .swiper-button-next:hover {
+  color: #555555;
+}
+.type-10 .modal-dialog .modal-content .modal-body .slide-product:hover .swiper-button-prev,
+.type-10 .modal-dialog .modal-content .modal-body .slide-product:hover .swiper-button-next {
+  visibility: visible;
+}
+.type-10 .modal-dialog .modal-content .modal-body .slide-product .swiper-pagination-bullet {
+  border: 3px solid #000;
+  background: unset;
+  width: 13px;
+  height: 13px;
+}
+.type-10 .modal-dialog .modal-content .modal-body .slide-product .swiper-pagination-bullet-active {
+  background: #000;
+}
+.type-10 .modal-dialog .modal-content .modal-body .slide-product .swiper-button-next:after,
+.type-10 .modal-dialog .modal-content .modal-body .slide-product .swiper-button-prev:after {
+  font-size: 25px;
+}
+.type-10 .modal-dialog .modal-content .modal-body .right-descript {
+  padding: 1em;
+}
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .title {
+  font-weight: 700;
+  color: #555555;
+  position: relative;
+  margin-bottom: 40px;
+}
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .title::before {
+  content: '';
+  position: absolute;
+  bottom: -25px;
+  width: 30px;
+  border: 1.5px solid #ccc;
+}
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .descript {
+  color: #555555;
+  font-weight: 520;
+}
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .descript .morelink,
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .descript .morelink {
+  text-decoration: none;
+  font-weight: 700;
+}
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .descript .morelink:hover,
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .descript .morelink:hover {
+  color: #000;
+}
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .morecontent span {
+  display: none;
+}
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .content-descript {
+  width: 100%;
+  border-bottom: 1px dashed #ccc;
+}
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .content-descript .clear-select {
+  text-align: right;
+}
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .content-descript .clear-select a {
+  text-decoration: none;
+  color: #000;
+}
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .content-descript .select-size {
+  margin-bottom: unset;
+}
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .content-descript .select-size label {
+  padding-right: unset;
+  padding-left: unset;
+  margin-bottom: unset;
+  line-height: 2.5;
+}
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .price {
+  font-weight: 700;
+  color: #000;
+}
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .number-spinner .handle-counter .counter-minus,
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .number-spinner .handle-counter .counter-plus,
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .number-spinner .handle-counter input {
+  float: left;
+  text-align: center;
+}
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .number-spinner .handle-counter input {
+  width: 35px;
+  height: 35px;
+}
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .number-spinner .counter-minus,
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .number-spinner .counter-plus {
+  height: 35px;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: unset;
+}
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .number-spinner .add-to-cart {
+  margin-left: 15px;
+}
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .number-spinner input[type=number]::-webkit-inner-spin-button,
+.type-10 .modal-dialog .modal-content .modal-body .right-descript .number-spinner input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.type-10 .modal-dialog .modal-content .modal-body .custom-slide {
+  padding-left: 0;
+  padding-right: 0;
+}
+.type-10 .modal-dialog .modal-content .modal-body .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.type-10 .modal-dialog .modal-content .modal-body .info-made ul {
+  list-style: none;
+  padding-left: 0;
+}
+.type-10 .modal-dialog .modal-content .modal-body .info-made ul li {
+  border-top: 1px dotted #ccc;
+  padding: 10px 0;
+}
+@media only screen and (min-width: 1068px) {
+  .type-10 .modal-dialog {
+    width: unset;
+    margin: 40px 200px;
+  }
+}
